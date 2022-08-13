@@ -39,3 +39,5 @@ var isValid = function(s) {
     }
     return false
 };
+
+// learned I can just push the closing parentheses into the stack rather than looking it up from a map or dictionary all the time
