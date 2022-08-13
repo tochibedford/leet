@@ -10,15 +10,9 @@ class Solution:
         
         while head and head.val == val:
             head = head.next
-        
-        
+         
         prevPointer = head if head else None
         currPointer = head.next if head else None
-        
-#         if head.val == val:
-#                 prevPointer.next = None
-#                 prevPointer = currPointer
-                # currPointer = currPointer.next
         while currPointer:
             if currPointer.val == val:
                 prevPointer.next = currPointer.next
